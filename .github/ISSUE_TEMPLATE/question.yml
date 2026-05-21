@@ -1,0 +1,11 @@
+name: Question
+description: Ask a question about Eidetic Works
+labels: [question]
+body:
+  - type: textarea
+    id: question
+    attributes: {label: Your question, placeholder: What do you want to know?}
+    validations: {required: true}
+  - type: textarea
+    id: tried
+    attributes: {label: What have you tried?, placeholder: Docs you've checked, things you've attempted}

@@ -1,0 +1,18 @@
+name: Feature request
+description: Suggest a feature or improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes: {label: Problem you're hitting, placeholder: What pain motivated this idea?}
+    validations: {required: true}
+  - type: textarea
+    id: solution
+    attributes: {label: Proposed solution, placeholder: What would solve it?}
+  - type: dropdown
+    id: frequency
+    attributes: {label: How often does this bite you?, options: [Daily, Weekly, Monthly, Rarely]}
+    validations: {required: true}
+  - type: textarea
+    id: alternatives
+    attributes: {label: Alternatives you've considered}

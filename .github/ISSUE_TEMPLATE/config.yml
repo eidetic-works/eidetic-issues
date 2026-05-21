@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private support / billing
+    url: mailto:support@eidetic.works
+    about: Account, billing, or anything private — don't post in public issues.
+  - name: Discord community
+    url: https://discord.gg/PLACEHOLDER
+    about: Quick questions + chat with other users.
